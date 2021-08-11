@@ -35,7 +35,7 @@ systemctl enable tlp # You can comment this command out if you didn't install tl
 
 useradd -m geeker
 echo geeker:password | chpasswd
-usermod -aG libvirt wheel -s zsh geeker 
+usermod -aG libvirt wheel -s /usr/bin/zsh geeker 
 
 sed -i '82s/.//' /etc/sudoers
 
