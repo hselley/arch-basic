@@ -3,7 +3,7 @@
 sudo timedatectl set-ntp true
 sudo hwclock --systohc
 
-sudo reflector --verbose --country US -a 12 --sort rate --save /etc/pacman.d/mirrorlist
+sudo reflector --verbose --country US --age 12 --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
 sudo pacman -Sy
 
 #sudo firewall-cmd --add-port=1025-65535/tcp --permanent
@@ -12,7 +12,7 @@ sudo pacman -Sy
 # sudo virsh net-autostart default
 
 sudo pacman -S --noconfirm xorg gdm gnome gnome-extra gnome-tweaks
-sudo pacman -Rc gnome-shell-extensions
+sudo pacman -Rc --noconfirm gnome-shell-extensions
 
 # sudo flatpak install -y spotify
 # sudo flatpak install -y kdenlive

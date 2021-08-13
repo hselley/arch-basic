@@ -18,11 +18,11 @@ echo root:password | chpasswd
 # You can add xorg to the installation packages, I usually add it at the DE or WM install script
 # You can remove the tlp package if you are installing on a desktop or vm
 
-pacman -S grub efibootmgr os-prober intel-ucode zsh zsh-autosuggestions zsh-completions zsh-syntax-highlighting
+pacman -S grub efibootmgr os-prober intel-ucode zsh zsh-autosuggestions zsh-completions zsh-syntax-highlighting --noconfirm
 #pacman -S dialog wpa_supp4licant mtools dosfstools  xdg-user-dirs xdg-utils  bash-completion  rsync  acpi acpi_call  openbsd-netcat  sof-firmware nss-mdns acpid   
 
 # Laptop 
-pacman -S tlp
+pacman -S tlp --noconfirm
 
 # pacman -S --noconfirm xf86-video-amdgpu
 # pacman -S --noconfirm nvidia nvidia-utils nvidia-settings
@@ -35,7 +35,7 @@ systemctl enable tlp # You can comment this command out if you didn't install tl
 
 useradd -m geeker
 echo geeker:password | chpasswd
-usermod -aG libvirt wheel -s /usr/bin/zsh geeker 
+usermod -aG wheel -s /usr/bin/zsh geeker 
 
 sed -i '82s/.//' /etc/sudoers
 
