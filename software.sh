@@ -16,7 +16,7 @@ sudo pacman -S geogebra wine octave julia r gambas3-ide jupyterlab jupyter-noteb
 sudo pacman -S qutebrowser gnome-podcasts geary chromium firefox-i18n-es-mx telegram-desktop openssh --noconfirm
 
 # Utilities
-sudo pacman -S rofi rofi-calc screenfetch neofetch lxappearance-gtk3 pacman-contrib speedtest-cli dunst alacritty splix cups cups-pdf inetutils dnsutils bluez bluez-utils bluez-tools bluez-hid2hci reflector ntfs-3g flatpak arandr alacarte seahorse xf86-video-intel plank libreoffice-fresh-es --noconfirm
+sudo pacman -S htop bpytop rofi rofi-calc screenfetch neofetch lxappearance-gtk3 pacman-contrib speedtest-cli dunst alacritty splix cups cups-pdf inetutils dnsutils bluez bluez-utils bluez-tools bluez-hid2hci reflector ntfs-3g flatpak arandr alacarte seahorse xf86-video-intel plank libreoffice-fresh-es --noconfirm
 
 # Themes
 sudo pacman -S arc-gtk-theme arc-icon-theme materia-gtk-theme adapta-gtk-theme papirus-icon-theme  --noconfirm
