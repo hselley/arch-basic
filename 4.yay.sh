@@ -6,7 +6,7 @@ yay -S zoom
 yay -S ferdium-bin 
 yay -S spotify 
 yay -S mpdris2
-yay -S rstudio-bin
+yay -S rstudio-desktop-bin
 yay -S touchegg
 sudo systemctl enable touchegg
 sudo systemctl start touchegg

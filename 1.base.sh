@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo reflector --verbose --country US --age 12 --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
+sudo reflector --verbose --country US,WorldWide --age 12 --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
 sudo pacman -Sy
 
 pacman -S tlp --noconfirm
