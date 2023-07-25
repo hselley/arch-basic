@@ -9,7 +9,7 @@ systemctl enable NetworkManager
 
 pacman -S fish zsh zsh-autosuggestions zsh-completions zsh-syntax-highlighting --noconfirm
 
-sudo pacman -S xorg gdm gnome gnome-extra gnome-tweaks
+sudo pacman -S xorg gdm gnome gnome-extra gnome-tweaks gnome-browser-connector
 sudo pacman -Rc --noconfirm gnome-shell-extensions
 
 sudo systemctl enable gdm
