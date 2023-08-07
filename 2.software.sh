@@ -11,8 +11,8 @@ sudo pacman -S git filezilla strawberry mpd ncmpcpp vlc guvcview-qt gst-plugins-
 sudo pacman -S qutebrowser gnome-podcasts geary chromium firefox-i18n-es-mx telegram-desktop openssh 
 
 # Utilities
-sudo pacman -S htop bpytop screenfetch neofetch pacman-contrib speedtest-cli dunst alacritty splix cups cups-pdf inetutils dnsutils bluez bluez-utils bluez-tools bluez-hid2hci reflector ntfs-3g flatpak arandr libreoffice-fresh-es 
-sudo pacman -S rofi rofi-calc bitwarden dmenu
+sudo pacman -S htop screenfetch neofetch pacman-contrib speedtest-cli dunst alacritty splix cups cups-pdf inetutils dnsutils bluez bluez-utils bluez-tools bluez-hid2hci reflector ntfs-3g flatpak arandr libreoffice-fresh-es 
+sudo pacman -S rofi rofi-calc bitwarden dmenu btop nvtop tilix
 
 # Themes
 #sudo pacman -S arc-gtk-theme arc-icon-theme materia-gtk-theme adapta-gtk-theme papirus-icon-theme  
