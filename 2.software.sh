@@ -12,7 +12,7 @@ sudo pacman -S qutebrowser gnome-podcasts geary chromium firefox-i18n-es-mx tele
 # Utilities
 sudo pacman -S htop screenfetch neofetch fastfetch pacman-contrib speedtest-cli dunst alacritty splix cups cups-pdf inetutils dnsutils bluez bluez-utils bluez-tools bluez-hid2hci reflector ntfs-3g flatpak arandr libreoffice-fresh-es 
 #sudo pacman -S rofi rofi-calc dmenu 
-sudo pacman -S bitwarden btop nvtop tilix
+sudo pacman -S bitwarden btop nvtop tilix alacarte
 
 # Themes
 #sudo pacman -S arc-gtk-theme arc-icon-theme materia-gtk-theme adapta-gtk-theme papirus-icon-theme  
