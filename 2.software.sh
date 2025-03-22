@@ -4,15 +4,16 @@
 sudo pacman -S ttf-anonymous-pro ttf-bitstream-vera ttf-croscore ttf-dejavu ttf-droid gnu-free-fonts ttf-fira-code ttf-fira-mono ttf-fira-sans ttf-ibm-plex ttf-lato ttf-liberation ttf-linux-libertine noto-fonts ttf-roboto ttf-roboto-mono tex-gyre-fonts ttf-ubuntu-font-family ttf-anonymous-pro ttf-cascadia-code ttf-fantasque-sans-mono ttf-fira-mono ttf-hack ttf-fira-code ttf-inconsolata ttf-jetbrains-mono ttf-monofur adobe-source-code-pro-fonts cantarell-fonts inter-font ttf-opensans gentium-plus-font ttf-junicode adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts noto-fonts-cjk noto-fonts-emoji ttf-ubuntu-font-family powerline-fonts ttf-font-awesome terminus-font 
 
 # Music/Video 
-sudo pacman -S git filezilla strawberry mpd ncmpcpp vlc guvcview-qt gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly obs-studio shortwave
+sudo pacman -S git filezilla strawberry mpd ncmpcpp vlc guvcview-qt gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-plugin-pipewire obs-studio shortwave
 
 # Internet
-sudo pacman -S qutebrowser gnome-podcasts geary chromium firefox-i18n-es-mx telegram-desktop openssh 
+sudo pacman -S qutebrowser gnome-podcasts geary chromium firefox-i18n-es-mx telegram-desktop openssh fragments #transmission-gtk
 
 # Utilities
 sudo pacman -S htop screenfetch neofetch fastfetch pacman-contrib speedtest-cli dunst alacritty splix cups cups-pdf inetutils dnsutils bluez bluez-utils bluez-tools bluez-hid2hci reflector ntfs-3g flatpak arandr libreoffice-fresh-es 
 #sudo pacman -S rofi rofi-calc dmenu 
-sudo pacman -S bitwarden btop nvtop tilix alacarte
+sudo pacman -S power-profiles-daemon tilix alacarte dconf-editor
+sudo pacman -S bitwarden btop nvtop 
 
 # Themes
 #sudo pacman -S arc-gtk-theme arc-icon-theme materia-gtk-theme adapta-gtk-theme papirus-icon-theme  

@@ -9,6 +9,7 @@ sudo pacman -S geogebra wine octave julia r gambas3-ide jupyterlab jupyter-noteb
 
 # Science
 sudo pacman -S python-scikit-learn python-scikit-hep-testdata python-scikit-build python-prettytable python-sympy
+sudo pacman -S gnuplot gnuplot-demos
 
 # LAMP
 sudo pacman -S apache php php-apache phpmyadmin mariadb
