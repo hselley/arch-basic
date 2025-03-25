@@ -30,10 +30,11 @@ sudo systemctl enable cups.service
 sudo systemctl enable sshd
 sudo systemctl enable reflector.timer
 sudo systemctl enable fstrim.timer
+sudo systemctl enable power-profiles-daemon
 
 sudo systemctl start bluetooth
 sudo systemctl start cups.service
 sudo systemctl start sshd
 sudo systemctl start reflector.timer
 sudo systemctl start fstrim.timer
-
+sudo systemctl start power-profiles-daemon

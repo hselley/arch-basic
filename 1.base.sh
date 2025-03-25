@@ -7,8 +7,8 @@ sudo pacman -Sy
 #systemctl enable tlp
 #systemctl enable NetworkManager
 
-pacman -S fish zsh zsh-autosuggestions zsh-completions zsh-syntax-highlighting --noconfirm
-pacman -S man-pages-es
+sudo pacman -S fish zsh zsh-autosuggestions zsh-completions zsh-syntax-highlighting --noconfirm
+sudo pacman -S man-pages-es
 
 #sudo pacman -S gdm gnome gnome-extra gnome-tweaks gnome-browser-connector #xorg
 sudo pacman -S gdm gnome gnome-tweaks gnome-browser-connector #xorg
