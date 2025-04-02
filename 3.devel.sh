@@ -8,7 +8,7 @@ sudo pacman -S texlive-xetex texlive-meta texlive-langenglish texlive-langspanis
 sudo pacman -S geogebra wine octave julia r gambas3-ide jupyterlab jupyter-notebook git xournalpp pandoc asciidoctor gcc-fortran # xf86-input-wacom code
 
 # Science
-sudo pacman -S python-scikit-learn python-scikit-hep-testdata python-scikit-build python-prettytable python-sympy
+sudo pacman -S python-scikit-learn python-scikit-hep-testdata python-scikit-build python-prettytable python-sympy python-pandas
 sudo pacman -S gnuplot gnuplot-demos libqalculate qalculate-gtk
 
 # LAMP
