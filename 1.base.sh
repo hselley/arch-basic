@@ -11,8 +11,7 @@ sudo pacman -S fish zsh zsh-autosuggestions zsh-completions zsh-syntax-highlight
 sudo pacman -S man-pages-es
 
 #sudo pacman -S gdm gnome gnome-extra gnome-tweaks gnome-browser-connector #xorg
-sudo pacman -S gdm gnome gnome-tweaks gnome-browser-connector #xorg
-sudo pacman -Rc --noconfirm gnome-shell-extensions
+#sudo pacman -S gdm gnome gnome-tweaks gnome-browser-connector #xorg
+#sudo pacman -Rc --noconfirm gnome-shell-extensions
 
 #sudo systemctl enable gdm
-
