@@ -5,6 +5,7 @@ sudo pacman -S ttf-anonymous-pro ttf-bitstream-vera ttf-croscore ttf-dejavu ttf-
 
 # Music/Video
 sudo pacman -S strawberry vlc guvcview-qt gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-plugin-pipewire obs-studio shortwave
+sudo pacman -S gst-libav vlc-plugin-ffmpeg
 sudo pacman -S mpd-mpris mpd ncmpcpp
 
 # Internet
@@ -23,7 +24,7 @@ sudo pacman -S bitwarden btop nvtop
 sudo pacman -S kdegraphics-thumbnailers qt6-imageformats ffmpegthumbs icoutils libappimage
 
 # KDE Basic Apps
-sudo pacman -S ktorrent okular kwave kweather markdownpart kdenlive kcalc kajongg dolphin gwenview ktorrent
+sudo pacman -S ktorrent okular kwave kweather markdownpart kdenlive kcalc kajongg dolphin gwenview
 
 # Themes
 #sudo pacman -S arc-gtk-theme arc-icon-theme materia-gtk-theme adapta-gtk-theme papirus-icon-theme
