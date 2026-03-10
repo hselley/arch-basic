@@ -16,3 +16,8 @@ sudo pacman -S apache php php-apache phpmyadmin mariadb
 
 # IA
 sudo pacman -S ollama ollama-docs ollama-cuda llm-manager
+
+# Docker
+sudo pacman -S docker docker-compose ducker
+sudo usermod -aG docker $USER
+sudo systemctl enable --now docker.service
