@@ -21,3 +21,6 @@ sudo pacman -S ollama ollama-docs ollama-cuda llm-manager
 sudo pacman -S docker docker-compose ducker
 sudo usermod -aG docker $USER
 sudo systemctl enable --now docker.service
+
+# Typst
+sudo pacman -S typst typstyle
