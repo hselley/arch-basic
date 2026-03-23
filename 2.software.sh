@@ -6,7 +6,8 @@ sudo pacman -S ttf-anonymous-pro ttf-bitstream-vera ttf-croscore ttf-dejavu ttf-
 # Music/Video
 sudo pacman -S strawberry vlc guvcview-qt gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-plugin-pipewire obs-studio shortwave
 sudo pacman -S gst-libav vlc-plugin-ffmpeg
-sudo pacman -S mpd-mpris mpd ncmpcpp
+sudo pacman -S mpd ncmpcpp mpd-mpris mpdscribble
+systemctl enable --now --user mpd.service
 
 # Internet
 #sudo pacman -S qutebrowser gnome-podcasts geary chromium firefox-i18n-es-mx telegram-desktop openssh fragments #transmission-gtk
@@ -18,8 +19,10 @@ sudo pacman -S git filezilla htop screenfetch fastfetch pacman-contrib speedtest
 #sudo pacman -S rofi rofi-calc dmenu dunst
 #sudo pacman -S power-profiles-daemon tilix alacarte dconf-editor alacritty
 sudo pacman -S power-profiles-daemon
-sudo pacman -S bitwarden btop nvtop
-
+sudo pacman -S bitwarden btop nvtop ptyxis
+sudo pacman -S debugedit fakeroot 
+sudo pacman -S dconf-editor
+ 
 # Dolphin plugins for preview files
 sudo pacman -S kdegraphics-thumbnailers qt6-imageformats ffmpegthumbs icoutils libappimage
 
