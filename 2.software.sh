@@ -15,9 +15,7 @@ sudo pacman -S qutebrowser chromium firefox-i18n-es-mx telegram-desktop openssh 
 
 # Utilities
 sudo pacman -S git filezilla htop screenfetch fastfetch pacman-contrib speedtest-cli splix cups cups-pdf inetutils dnsutils bluez bluez-utils bluez-tools bluez-hid2hci reflector ntfs-3g flatpak arandr libreoffice-fresh-es
-#sudo pacman -S git filezilla htop screenfetch neofetch fastfetch pacman-contrib speedtest-cli splix cups cups-pdf inetutils dnsutils bluez bluez-utils bluez-tools bluez-hid2hci reflector ntfs-3g flatpak arandr libreoffice-fresh-es
-#sudo pacman -S rofi rofi-calc dmenu dunst
-#sudo pacman -S power-profiles-daemon tilix alacarte dconf-editor alacritty
+sudo pacman -S alacarte dconf-editor alacritty
 sudo pacman -S power-profiles-daemon
 sudo pacman -S bitwarden btop nvtop ptyxis
 sudo pacman -S debugedit fakeroot 
@@ -35,6 +33,7 @@ sudo pacman -S papirus-icon-theme
 
 # i3
 #sudo pacman -S i3-gaps i3blocks i3status i3status-rust
+#sudo pacman -S rofi rofi-calc dmenu dunst
 
 # qTile
 #sudo pacman -S qtile
