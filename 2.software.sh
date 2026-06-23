@@ -18,9 +18,9 @@ sudo pacman -S git filezilla htop screenfetch fastfetch pacman-contrib speedtest
 sudo pacman -S alacarte dconf-editor alacritty
 sudo pacman -S power-profiles-daemon
 sudo pacman -S bitwarden btop nvtop ptyxis
-sudo pacman -S debugedit fakeroot 
+sudo pacman -S debugedit fakeroot
 sudo pacman -S dconf-editor
- 
+
 # Dolphin plugins for preview files
 sudo pacman -S kdegraphics-thumbnailers qt6-imageformats ffmpegthumbs icoutils libappimage
 
@@ -38,16 +38,9 @@ sudo pacman -S papirus-icon-theme
 # qTile
 #sudo pacman -S qtile
 
-sudo systemctl enable bluetooth
-sudo systemctl enable cups.service
-sudo systemctl enable sshd
-sudo systemctl enable reflector.timer
-sudo systemctl enable fstrim.timer
-sudo systemctl enable power-profiles-daemon
-
-sudo systemctl start bluetooth
-sudo systemctl start cups.service
-sudo systemctl start sshd
-sudo systemctl start reflector.timer
-sudo systemctl start fstrim.timer
-sudo systemctl start power-profiles-daemon
+sudo systemctl enable --now bluetooth
+sudo systemctl enable --now cups.service
+sudo systemctl enable --now sshd
+sudo systemctl enable --now reflector.timer
+sudo systemctl enable --now fstrim.timer
+sudo systemctl enable --now power-profiles-daemon
