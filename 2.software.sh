@@ -31,6 +31,9 @@ sudo pacman -S ktorrent okular kwave kweather markdownpart kdenlive kcalc kajong
 #sudo pacman -S arc-gtk-theme arc-icon-theme materia-gtk-theme adapta-gtk-theme papirus-icon-theme
 sudo pacman -S papirus-icon-theme
 
+# GPU Utilities
+sudo pacman -S rocm-smi-lib
+
 # i3
 #sudo pacman -S i3-gaps i3blocks i3status i3status-rust
 #sudo pacman -S rofi rofi-calc dmenu dunst
