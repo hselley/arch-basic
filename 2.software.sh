@@ -10,16 +10,16 @@ sudo pacman -S mpd ncmpcpp mpd-mpris mpdscribble
 systemctl enable --now --user mpd.service
 
 # Internet
-#sudo pacman -S qutebrowser gnome-podcasts geary chromium firefox-i18n-es-mx telegram-desktop openssh fragments #transmission-gtk
-sudo pacman -S qutebrowser chromium firefox-i18n-es-mx telegram-desktop openssh #transmission-gtk
+sudo pacman -S qutebrowser gnome-podcasts geary chromium firefox-i18n-es-mx telegram-desktop openssh fragments #transmission-gtk
+#sudo pacman -S qutebrowser chromium firefox-i18n-es-mx telegram-desktop openssh #transmission-gtk
 
 # Utilities
 sudo pacman -S git filezilla htop screenfetch fastfetch pacman-contrib speedtest-cli splix cups cups-pdf inetutils dnsutils bluez bluez-utils bluez-tools bluez-hid2hci reflector ntfs-3g flatpak arandr libreoffice-fresh-es
-sudo pacman -S alacarte dconf-editor alacritty
+sudo pacman -S alacarte alacritty ghostty ptyxis
 sudo pacman -S power-profiles-daemon
-sudo pacman -S bitwarden btop nvtop ptyxis
+sudo pacman -S bitwarden btop nvtop
 sudo pacman -S debugedit fakeroot
-sudo pacman -S dconf-editor
+sudo pacman -S dconf-editor gnome-browser-connector
 
 # Dolphin plugins for preview files
 sudo pacman -S kdegraphics-thumbnailers qt6-imageformats ffmpegthumbs icoutils libappimage
@@ -41,9 +41,9 @@ sudo pacman -S rocm-smi-lib
 # qTile
 #sudo pacman -S qtile
 
-sudo systemctl enable --now bluetooth
-sudo systemctl enable --now cups.service
+#sudo systemctl enable --now bluetooth
+#sudo systemctl enable --now cups.service
 sudo systemctl enable --now sshd
 sudo systemctl enable --now reflector.timer
 sudo systemctl enable --now fstrim.timer
-sudo systemctl enable --now power-profiles-daemon
+#sudo systemctl enable --now power-profiles-daemon
