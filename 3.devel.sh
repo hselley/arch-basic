@@ -5,7 +5,7 @@ sudo pacman -S texlive-fontsextra texlive-core texlive-bin texlive-bibtexextra t
 sudo pacman -S texlive-xetex texlive-meta texlive-langenglish texlive-langspanish texlive-fontutils texlive-binextra texlive-context texlive-fontutils
 
 # Programming
-sudo pacman -S geogebra wine octave julia r gambas3-ide jupyterlab jupyter-notebook git xournalpp pandoc asciidoctor gcc-fortran # xf86-input-wacom code
+sudo pacman -S geogebra wine octave julia r gambas3-ide jupyterlab jupyter-notebook git xournalpp pandoc asciidoctor gcc-fortran code # xf86-input-wacom
 
 # Science
 sudo pacman -S python-scikit-learn python-scikit-build python-prettytable python-sympy python-pandas python-matplotlib

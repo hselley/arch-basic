@@ -17,7 +17,7 @@ sudo pacman -S qutebrowser gnome-podcasts geary chromium firefox-i18n-es-mx tele
 sudo pacman -S git filezilla htop screenfetch fastfetch pacman-contrib speedtest-cli splix cups cups-pdf inetutils dnsutils bluez bluez-utils bluez-tools bluez-hid2hci reflector ntfs-3g flatpak arandr libreoffice-fresh-es
 sudo pacman -S alacarte alacritty ghostty ptyxis
 sudo pacman -S power-profiles-daemon
-sudo pacman -S bitwarden btop nvtop
+sudo pacman -S bitwarden btop nvtop obsidian
 sudo pacman -S debugedit fakeroot
 sudo pacman -S dconf-editor gnome-browser-connector
 
