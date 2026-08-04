@@ -15,7 +15,7 @@ sudo pacman -S gnuplot gnuplot-demos libqalculate qalculate-gtk
 sudo pacman -S apache php php-apache phpmyadmin mariadb
 
 # IA
-sudo pacman -S ollama ollama-docs ollama-cuda llm-manager
+sudo pacman -S ollama ollama-docs ollama-cuda llm-manager opencode
 sudo systemctl enable --now ollama
 
 # Docker
